@@ -9,7 +9,12 @@ import members from './member.svg'
 
 import footer from './footer.svg'
 
+import churchmedia from './churchmedia.png'
+import GeandFam from './GOandFam.svg'
+
 export {
+    GeandFam,
+    
     logo,
     pasaus,
     service1,
@@ -17,5 +22,7 @@ export {
     service3,
 
     members,
-    footer
+    footer,
+
+    churchmedia
 }

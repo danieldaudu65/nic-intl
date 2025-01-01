@@ -13,7 +13,7 @@ const BecomeAMember = () => {
                 like-minded believers Enrol  in our Membership Class today
                 (in any of our locations) and begin your membership journey
             </p>
-            <button>Location Near me <FaArrowRight /></button>
+            <button><p>Location Near me</p> <FaArrowRight /></button>
 
             <img src={members} alt="" />
         </div>
