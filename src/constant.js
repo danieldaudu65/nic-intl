@@ -1,3 +1,5 @@
+import { pastor1, pastor2, pastor3, pastor4, pastor5 } from "./assets"
+
 export const Cards = [
     {
         title: "ONLINE GIVING",
@@ -189,6 +191,127 @@ export const statemnets = [
     }
 ]
 
+
+export const branches = [
+    {
+        location: 'UGBOWO',
+        street: ' 22, UWASOTA ROAD , UGBOWO, BENIN CITY',
+        phone: '+234-814-8980-098'
+    },
+    {
+        location: 'BENIN',
+        street: ' 157, UPPER MISSION BESIDES SUNGAS, BENIN CITY',
+        phone: '+234-814-8980-098'
+    },
+    {
+        location: 'EKPOMA',
+        street: 'NOBLE PAVILLION @PIUS OMOFUMA STREET G.T EXTENSION, UJEMEN EKPOMA, EDO STATE.',
+        phone: '+234-703-5430-286'
+    },
+    {
+        location: 'AKUNGBA',
+        street: 'CHURCH HALL BETWEEN WAZIRI HOUSE AND FIRST BAWAK JUNCTION,OPPOSITE AKHOKIA BLOCK INDUSTRY, ALONG AUCHI EXPRESS WAY,AUCHI EDO STATE',
+        phone: '+234-813-113-4474'
+    },
+]
+
+export const all_pastors = [
+    {
+        image: pastor1,
+        name: "Rev'd Austin",
+        instagram: '',
+        branch: 'Ugbowo Brance' 
+    },
+    {
+        image: pastor2,
+        name: "Rev'd Blessed Iyare",
+        instagram: '',
+        branch: 'Benin Brance' 
+    },
+    {
+        image: pastor3,
+        name: "Daniel Mozai",
+        instagram: '',
+        branch: 'Ekpoma Brance' 
+    },
+    {
+        image: pastor4,
+        name: "Vincent Akinbobola",
+        instagram: '',
+        branch: 'Akungba Branch' 
+    },
+    {
+        image: pastor5,
+        name: "Omwan Influence",
+        instagram: '',
+        branch: 'Auchi Brance' 
+    },
+]
+
+
+export const belief = [
+    {
+        no: 1,
+        title: 'Eternal Judgment',
+        text: 'It is a foundational fact that every humna being is a spirit and has an eternal home which is either heaven or hell.'
+    },
+    {
+        no: 2,
+        title: 'Ressurrection',
+        text: "It is a ready fundamental belief in the gospel. Many do not believe the dead can be raised back to life if we do not believe that our lord Jesus rose again, we can't be saved because it was through his resurrection we received life."
+    },
+    {
+        no: 3,
+        title: 'Layinf Of Hands',
+        text: 'This is a vital practice in the Christian faith, it is a medium of transference of blessings, the anointing, graces, wisdom and even impartation of the holy ghost to another person.'
+    },
+    {
+        no: 4,
+        title: 'Baptism',
+        text: "Through baptism God will stare your heart to become more committed to serving him because the sense of membership in Christ's body will enter your heart."
+    },
+    {
+        no: 5,
+        title: 'Tithing',
+        text: 'Learn to spend some of every income that you receive.'
+    },
+    {
+        no: 6,
+        title: 'Communion',
+        text: 'As a church, we believe the communion can communicate the life-giving power of Christ into our body resulting in healing, deliverance, long life, strength and peace.'
+    },
+    {
+        no: 7,
+        title: 'Eternal Judgment',
+        text: 'It is a foundational fact that every humna being is a spirit and has an eternal home which is either heaven or hell.'
+    },
+    {
+        no: 8,
+        title: 'Eternal Judgment',
+        text: 'It is a foundational fact that every humna being is a spirit and has an eternal home which is either heaven or hell.'
+    },
+    {
+        no: 9,
+        title: 'Eternal Judgment',
+        text: 'It is a foundational fact that every humna being is a spirit and has an eternal home which is either heaven or hell.'
+    },
+    {
+        no: 10,
+        title: 'Eternal Judgment',
+        text: 'It is a foundational fact that every humna being is a spirit and has an eternal home which is either heaven or hell.'
+    },
+    {
+        no: 11,
+        title: 'Eternal Judgment',
+        text: 'It is a foundational fact that every humna being is a spirit and has an eternal home which is either heaven or hell.'
+    },
+    {
+        no: 12,
+        title: 'Eternal Judgment',
+        text: 'It is a foundational fact that every humna being is a spirit and has an eternal home which is either heaven or hell.'
+    },
+
+]
 
 
 

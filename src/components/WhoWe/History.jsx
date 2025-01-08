@@ -3,7 +3,7 @@ import React from 'react';
 const History = () => {
     return (
         <div>
-            <h1>OUT HISTORY</h1>
+            <h1>OUR HISTORY</h1>
             <p>
 
                 Noble In Christ Ministries is a Christian organization committed to spreading the gospel to the world. Each member, referred to as a Noble, is trained and discipled to lead others into full Christian maturity, as inspired by Matthew 28:19-20.

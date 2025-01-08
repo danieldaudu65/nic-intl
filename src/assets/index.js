@@ -12,8 +12,19 @@ import footer from './footer.svg'
 import churchmedia from './churchmedia.png'
 import GeandFam from './GOandFam.svg'
 
+import pastor1 from './daddyGO.svg'
+import pastor2 from './mummyGO.svg'
+import pastor3 from './pastorDan.svg'
+import pastor4 from './pastor4.svg'
+import pastor5 from './pastor3.svg'
+
+
+import picture from './pic.png'
+
 export {
     GeandFam,
+
+    picture,
     
     logo,
     pasaus,
@@ -24,5 +35,11 @@ export {
     members,
     footer,
 
-    churchmedia
+    churchmedia,
+    
+    pastor1,
+    pastor2,
+    pastor3,
+    pastor4,
+    pastor5
 }

@@ -34,7 +34,7 @@ const Navbar = () => {
                 <ul className="flex flex-col items-start p-4 space-y-4 font-bold">
                     <li><a href="/" className="hover:text-[#47DC17] transition-2s">HOME</a></li>
                     <li><a href="/about" className="hover:text-[#47DC17] transition-2s">WHO WE ARE</a></li>
-                    <li><a href="/contact" className="hover:text-[#47DC17] transition-2s">BRANCHES</a></li>
+                    <li><a href="/branch" className="hover:text-[#47DC17] transition-2s">BRANCHES</a></li>
                     <li><a href="/contact" className="hover:text-[#47DC17] transition-2s">ONLINE GIVING</a></li>
                     <li><a href="/contact" className="hover:text-[#47DC17] transition-2s">MEDIA</a></li>
                     <li><a href="/contact" className="hover:text-[#47DC17] transition-2s">QUICK LINKS</a></li>

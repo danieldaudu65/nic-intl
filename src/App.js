@@ -4,6 +4,8 @@ import WhoWe from "./pages/WhoWe";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Leaders from "./pages/Leaders";
+import Branch from "./pages/Branch";
 
 
 function App() {
@@ -15,6 +17,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<WhoWe />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/branch" element={<Branch  />} />
+          <Route path="/about/leaders" element={<Leaders />} />
+          
         </Routes>
         <Footer />
       </div>
