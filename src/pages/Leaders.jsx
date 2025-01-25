@@ -1,14 +1,16 @@
 import React from 'react';
 import { all_pastors } from '../constant';
 import { FaFacebook, FaInstagram } from 'react-icons/fa';
+import { green1, green2, green3, green4 } from '../assets';
 
 const Leaders = () => {
     return (
-        <div>
-            <div className=''>
-                <h2 className=''>Meet Our Leaders</h2>
-                <p>
-                    Rev’d Austin & Rev’d Blessed Iyare
+        <div className='p-6'>
+            <div className='text-[12px]'>
+                <h2 className='font-bold text-[24px] mb-8'>Meet Our Leaders</h2>
+                <strong className='font-bold my-3 text-[14px]'>Rev’d Austin & Rev’d Blessed Iyare</strong>
+
+                <p className='mb-4'>
                     <br />
                     With nearly two decades of impactful ministry, Reverend Austin Iyere Wonders has been tirelessly preaching the gospel of Christ, accompanied by miracles, signs, and wonders. As the Lead Pastor of Noble In Christ Ministries, he operates under a powerful teaching, healing, and prophetic anointing.
                     Through a growing Apostolic ministry, Reverend Austin has established, nurtured, and strengthened numerous local churches, leaving a lasting legacy of faith and discipleship.
@@ -19,22 +21,44 @@ const Leaders = () => {
                     all_pastors.map((item, index) => (
                         <div
                             key={index}
-                            className=''
+                            className='mb-6 -z-30 relative'
                         >
-
-                            <div>
-                                <p>Connect with {item.name}</p>
-                                <a href= {`${item.instagram}`}>
-                                    <FaInstagram />
+                            <div className='flex gap-2 mb-4 items-center'>
+                                <p className='flex'>Connect with {item.name}</p>
+                                <a href={`${item.instagram}`}>
+                                    <FaInstagram className='text-[16px]' />
                                 </a>
-                                <a href= {`${item.facebook}`}>
-                                    <FaFacebook />
+                                <a href={`${item.facebook}`}>
+                                    <FaFacebook className='text-[16px]' />
                                 </a>
                             </div>
-                            <img src={item.image} alt="" />
+
+                            {/* Conditionally apply background color for indexes 1, 2, 3, 4 */}
+                            {index === 1 || index === 2 || index === 3 || index === 4 ? (
+                                <div className='my-2 p-4 pb-0 bg-[#fffbac71] shadow-xl '>
+                                    <img className='w-full' src={item.image} alt="" />
+                                </div>
+                            ) : (
+                                <img className='my-2' src={item.image} alt="" />
+                            )}
+
+                            {/* Conditionally display green images for specific indexes */}
+                            {index === 1 && (
+                                <img className='w-16 absolute right-0 -top-8 ' src={green1} alt="green1" />
+                            )}
+                            {index === 2 && (
+                                <img className='w-18 absolute left-0 top-20' src={green2} alt="green2" />
+                            )}
+                            {index === 3 && (
+                                <img className='w-26 absolute right-0 -top-8' src={green3} alt="green3" />
+                            )}
+                            {index === 4 && (
+                                <img className='w-20 absolute left-0 top-10' src={green4} alt="green4" />
+                            )}
+
                             <div>
-                                <p>{item.name}</p>
-                                <p>{item.branch}</p>
+                                <p className='font-bold'>{item.name}</p>
+                                <p className='text-[#00000091]'>{item.branch}</p>
                             </div>
                         </div>
                     ))

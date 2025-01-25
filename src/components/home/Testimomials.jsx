@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { testimonies } from '../../constant';
+import { green, greenl } from '../../assets';
 
 const Testimonials = () => {
   const [showAll, setShowAll] = useState(false);
@@ -9,12 +10,26 @@ const Testimonials = () => {
 
   return (
     <div className="p-6 bg-gray-100">
-      <h1 className="text-2xl font-bold text-center mb-6">Testimonials</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <h1 className="text-[16px] text-start font-nunito font-[800] w-[80%] mb-6">
+        Testimonials and Stories of Changed Lives
+      </h1>
+      <div className="flex justify-center items-center flex-wrap gap-6">
         {displayedTestimonies.map((item, index) => (
-          <div key={index} className="border rounded-lg shadow-md p-4 bg-white">
-            <h2 className="text-xl font-semibold mb-2 text-blue-600">{item.no}</h2>
-            <p className="text-gray-700">{item.text}</p>
+          <div
+            key={index}
+            className="border my-4  relative h-auto py-10 px-8 flex justify-evenly items-center flex-col rounded-xl shadow-md p-4 w-[80%] bg-[#ffffff21]"
+          >
+            <h2 className="text-xl mb-4 text-black font-[800]">{item.no}</h2>
+            <p className="text-gray-700 leading-loose text-[13px] font-parkin text-center">
+              {item.text}
+            </p>
+
+            {/* Conditionally place the images based on index */}
+            <img
+              src={index % 2 === 1 ? greenl : green}
+              className={`absolute ${index % 2 === 1 ? 'left-0' : 'right-0'} bottom-0 `}
+              alt=""
+            />
           </div>
         ))}
       </div>
@@ -22,9 +37,9 @@ const Testimonials = () => {
       <div className="text-center mt-6">
         <button
           onClick={() => setShowAll(!showAll)}
-          className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+          className="px-4 py-2 underline text-gray-600 font-bold rounded text-[14px] hover:text-blue-700"
         >
-          {showAll ? 'Show Less' : 'More Testimonies'}
+          {showAll ? 'Show Less' : 'Read More Testimonies'}
         </button>
       </div>
     </div>

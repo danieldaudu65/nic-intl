@@ -1,4 +1,4 @@
-import { pastor1, pastor2, pastor3, pastor4, pastor5 } from "./assets"
+import { audio1, audio2, audio3, audio4, audio5, pastor1, pastor2, pastor3, pastor4, pastor5, video1, video2, video3 } from "./assets"
 
 export const Cards = [
     {
@@ -147,49 +147,49 @@ export const core_values = [
     }
 ]
 
-
-export const statemnets = [
+export const statements = [
     {
         no: 1,
-        statement: 'There is only one God. He is the creator of all things and is the trinity of the Father, the Son and the Holy Spirit. Deuteronomy 6:4'
+        statement: 'There is only one God. He is the creator of all things and is the trinity of the Father, the Son and the Holy Spirit. Deuteronomy 6:4',
     },
     {
         no: 2,
-        statement: 'Jesus Christ is the son of God. He was born of the Virgin Mary, through the operation of the Holy Spirit. He is a man and God at the same time. Matthew 1: 18-25'
+        statement: 'Jesus Christ is the son of God. He was born of the Virgin Mary, through the operation of the Holy Spirit. He is a man and God at the same time. Matthew 1: 18-25',
     },
     {
         no: 3,
-        statement: 'Jesus is the way.He is the only way by which we can get to the father.John 14: 6'
+        statement: 'Jesus is the way. He is the only way by which we can get to the Father. John 14: 6',
     },
     {
         no: 4,
-        statement: 'The bible is God\'s word. All scriptures are written by the inspiration of God and is infallible. 2 Timothy 3: 16'
+        statement: "The Bible is God's word. All scriptures are written by the inspiration of God and are infallible. 2 Timothy 3: 16",
     },
     {
         no: 5,
-        statement: 'All need to be saved.All need to receive personal salvation through the shed blood of Jesus Christ.'
+        statement: 'All need to be saved. All need to receive personal salvation through the shed blood of Jesus Christ.',
     },
     {
         no: 6,
-        statement: 'Jesus Christ rose from the dead.Jesus Christ resurrected from the dead after days.Today, he is alive forevermore. 1corinthians 15: 4'
+        statement: 'Jesus Christ rose from the dead. Jesus Christ resurrected from the dead after three days. Today, he is alive forevermore. 1 Corinthians 15: 4',
     },
     {
         no: 7,
-        statement: 'The dead shall rise again.We believe in the resurrection of the dead, the eternal torment of the lost. 1thessalonians 4: 16 - 17'
+        statement: 'The dead shall rise again. We believe in the resurrection of the dead and the eternal torment of the lost. 1 Thessalonians 4: 16-17',
     },
     {
         no: 8,
-        statemnet: 'Jesus Christ is coming again.We believe in the personal return of our Lord Jesus Christ based on the scriptures.Act 1: 11'
+        statement: 'Jesus Christ is coming again. We believe in the personal return of our Lord Jesus Christ based on the scriptures. Acts 1: 11',
     },
     {
         no: 9,
-        statement: 'Water baptism and Holy Communion.We believe in water baptism by immersion and the Lords supper, as ordinance to be observed by the church in the present age.Matthew 28: 19, 26: 26 - 29'
+        statement: "Water baptism and Holy Communion. We believe in water baptism by immersion and the Lord's supper as ordinances to be observed by the church in the present age. Matthew 28: 19, 26: 26-29",
     },
     {
-        mo: 10,
-        statemnet: 'Baptism of the Holy Ghost and power.We believe in the baptism of the Holy Ghost and power, with the initial evidence of speaking in tongues.We believe in the Gift of the Spirit and in the preaching of the gospel with healing, miracles, signs and wonders following.Mark 16: 17 - 18, Act 1: 8'
-    }
-]
+        no: 10,
+        statement: 'Baptism of the Holy Ghost and power. We believe in the baptism of the Holy Ghost and power, with the initial evidence of speaking in tongues. We believe in the gifts of the Spirit and in the preaching of the gospel with healing, miracles, signs, and wonders following. Mark 16: 17-18, Acts 1: 8',
+    },
+];
+
 
 
 export const branches = [
@@ -220,31 +220,31 @@ export const all_pastors = [
         image: pastor1,
         name: "Rev'd Austin",
         instagram: '',
-        branch: 'Ugbowo Brance' 
+        branch: 'Ugbowo Brance'
     },
     {
         image: pastor2,
         name: "Rev'd Blessed Iyare",
         instagram: '',
-        branch: 'Benin Brance' 
+        branch: 'Benin Brance'
     },
     {
         image: pastor3,
         name: "Daniel Mozai",
         instagram: '',
-        branch: 'Ekpoma Brance' 
+        branch: 'Ekpoma Brance'
     },
     {
         image: pastor4,
         name: "Vincent Akinbobola",
         instagram: '',
-        branch: 'Akungba Branch' 
+        branch: 'Akungba Branch'
     },
     {
         image: pastor5,
         name: "Omwan Influence",
         instagram: '',
-        branch: 'Auchi Brance' 
+        branch: 'Auchi Brance'
     },
 ]
 
@@ -314,6 +314,60 @@ export const belief = [
 ]
 
 
+export const audios = [
+    {
+        audioLink: "",
+        image: audio1,
+        title: "Thanksgiving",
+        description: ''
+    },
+    {
+        audioLink: "https://t.me/Nobleinchristministry/494",
+        image: audio2,
+        title: "Example Of Jesus",
+        description: ''
+    },
+    {
+        audioLink: "https://t.me/Nobleinchristministry/471",
+        image: audio3,
+        title: "Elevation Service",
+        description: ''
+    },
+    {
+        audioLink: "https://t.me/Nobleinchristministry/191",
+        image: audio4,
+        title: "Forgiveness",
+        description: ''
+    },
+    {
+        audioLink: "https://t.me/Nobleinchristministry/497",
+        image: audio5,
+        title: "Moving Towards Establishment",
+        description: ''
+    },
+]
+
+
+export const videos = [
+    {
+        videolink: 'https://www.youtube.com/live/Bq4iIVQFu3A?si=p7VBkw9jMSP6ZQBo',
+        title: "Waters Of Marah",
+        image: video1,
+        preacher: "Rev'd Austin Iyare"
+    },
+    {
+        videolink: 'https://www.youtube.com/live/M73-h-3Q4Bo?si=s6AUrDrbYSN4JW0l',
+        title: "Elevation Service",
+        image: video2,
+        preacher: "Rev'd Austin Iyare"
+    },
+    {
+        videolink: 'https://www.youtube.com/live/kFUx6UkuMjQ?si=JUL9rQMbPLnqaIQe',
+        title: "Let Your Light SHine",
+        image: video3,
+        preacher: "Rev'd Austin Iyare"
+    },
+]
 
 
 

@@ -1,22 +1,20 @@
 import React from 'react';
-import { statemnets } from '../../constant';
+import { statements } from '../../constant';
 
 const StatementOfFaith = () => {
   return (
-    <div>
-      <h2>STATEMENT OF FAITH</h2>
-      <div>
-        {
-          statemnets  .map((item, index) =>(
-            <li className=' flex items-center gap-1'>
-                <strong>{item.no}</strong>
-                <p>{item.statement}</p>
-            </li>
-          ))
-        }
-      </div>
+    <div className="p-6">
+      <h2 className="font-bold text-xl mb-4">Statement of Faith</h2>
+      <ul className="space-y-2">
+        {statements.map((item, index) => (
+          <li key={index} className="flex items-start gap-2">
+            <strong>{item.no}.</strong>
+            <p>{item.statement}</p>
+          </li>
+        ))}
+      </ul>
     </div>
   );
-}
+};
 
 export default StatementOfFaith;

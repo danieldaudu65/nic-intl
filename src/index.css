@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Parkinsans:wght@300..800&display=swap');
+
+
 *{
   margin: 0;
   padding: 0;
@@ -7,3 +10,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+body{
+  overflow-x: hidden;
+}
+
+/* styles.css */
+.bg-custom {
+  background: linear-gradient(rgba(0, 0, 0, 0.739), rgba(0, 0, 0, 0.423)), url('./assets/footer.svg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homep {
+  background: linear-gradient(rgba(0, 0, 0, 0.739), rgba(0, 0, 0, 0.423)), url('./assets/hb.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

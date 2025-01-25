@@ -6,6 +6,11 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Leaders from "./pages/Leaders";
 import Branch from "./pages/Branch";
+import Giving from "./pages/Giving";
+import Audio from "./pages/Audio";
+import Videos from "./pages/Videos";
+import Pictures from "./pages/Pictures";
+import Media from "./pages/Media";
 
 
 function App() {
@@ -17,9 +22,13 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<WhoWe />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/giving" element={<Giving  />} />
           <Route path="/branch" element={<Branch  />} />
           <Route path="/about/leaders" element={<Leaders />} />
-          
+          <Route path="/about" element={<Media />} />
+          <Route path="/media/audio" element={<Audio />} />
+          <Route path="/media/video" element={<Videos />} />
+          <Route path="/media/picture" element={<Pictures />} />
         </Routes>
         <Footer />
       </div>
